@@ -1,0 +1,7 @@
+type ChiTieuDetail @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  date: String
+  cost: Int
+}
+ 
